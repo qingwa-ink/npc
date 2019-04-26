@@ -3,6 +3,7 @@ package main
 import (
 	"fmt"
 	"npc/lish/go/formula"
+	"npc/lish/go/practice"
 )
 
 func main() {
@@ -14,4 +15,7 @@ func main() {
 	fmt.Printf("方差 : %f\n", variance)
 	fmt.Printf("标准差 : %f\n", standard)
 	fmt.Printf("置信区间 : %f ~ %f\n", resultMin, resultMax)
+
+	// 测试练习题
+	practice.P190426()
 }
