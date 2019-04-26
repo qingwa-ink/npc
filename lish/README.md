@@ -3,8 +3,9 @@
 
 # 文件目录
 
-go golang练习
+[Golang练习](go/)
+- [数学公式](go/formula/)
+  - [计算方差、置信区间](go/formula/variance.go)
 
-python python练习
-
+[Python练习](python/)
 
