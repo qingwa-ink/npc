@@ -16,6 +16,9 @@ Coding Technology Exchange Station, School of Statistics, Renmin University of C
 - [统计学习方法](ebooks/统计学习方法.pdf)
 - [统计学习基础数据挖掘、推理与预测](ebooks/统计学习基础%20数据挖掘、推理与预测.pdf)
 
+[练习题目](ActualCombat/)
+- [2019.04.26](ActualCombat/2019.04.26.md)
+
 # 个人目录
 [李少卿](lish/)
 
