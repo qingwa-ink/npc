@@ -19,6 +19,5 @@ Coding Technology Exchange Station, School of Statistics, Renmin University of C
 [练习题目](ActualCombat/)
 - [2019.04.26](ActualCombat/2019.04.26.md)
 
-# 个人目录
-[李少卿](lish/)
-
+[个人目录](/)
+- [李少卿](lish/)
