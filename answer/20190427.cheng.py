@@ -42,7 +42,8 @@ def sampling_dist(mean,std,n):
     sigma = xbar.std()
 
     return plt.hist(xbar,bins=20,color="k",
-                    alpha=0.5,rwidth=0.9,range=(50,54)),plt.title("n={0},mu={1:.2f},sigma={2:.2f}".format(n,mu,sigma))
+                    alpha=0.5,rwidth=0.9,range=(50,54)),plt.title("n={0},
+                    mu={1:.2f},sigma={2:.2f}".format(n,mu,sigma))
 
 sampling_dist()
 
