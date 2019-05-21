@@ -1,5 +1,7 @@
 #!/usr/bin/python3
 import keyword
+import sys
+from sys import path
  
 # 英文测试
 print("Hello, World!")
@@ -15,7 +17,7 @@ print(keyword.kwlist)
 
 a = 99 / 4
 
-if (a == 25):
+if a == 25:
   print ("a is 25")
 else:
   print ("a is not 25")
@@ -26,6 +28,9 @@ total = 99 + \
         100 + \
         200
 print (total)
+
+# 单行多语句
+x = 'runoob'; sys.stdout.write(x + '\n')
 
 # 在 [], {}, 或 () 中的多行语句，不需要用\换行
 total = ['item_one', 'item_two', 'item_three',
@@ -52,4 +57,31 @@ print('------------------------------')
  
 print('hello\nrunoob')      # 使用反斜杠(\)+n转义特殊字符
 print(r'hello\nrunoob')     # 在字符串前面添加一个 r，表示原始字符串，不会发生转义
+
+# 输入
+name = input("\n按下 enter 键后退出。\n")
+print (name)
+
+# 多个语句构成代码组
+if a < 200 : 
+   print ("a < 200")
+elif a < 400 : 
+   print ("a < 400")
+else : 
+   print ("a >= 400")
+print()
+
+x="a"
+y="b"
+# 换行输出
+print( x )
+print( y )
+ 
+print('---------')
+# 不换行输出
+print( x, end=" " )
+print( y, end=" " )
+print()
+
+print('path:',path) # 因为已经导入path成员，所以此处引用时不需要加sys.path
 
